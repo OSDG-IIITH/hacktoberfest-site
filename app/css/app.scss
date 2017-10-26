@@ -26,3 +26,10 @@ body {
     color: $hacktober-violet-primary;
   }
 }
+
+@media (max-width: 767px) {
+ .TopNav .logo {
+  display:none;
+  visibility:hidden
+ }
+}
